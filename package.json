@@ -1,0 +1,30 @@
+{
+  "name": "neutrino-middleware-optimizecss",
+  "description": "Neutrino middleware that optimizes css from bundles into separate files using the OptimizeCssAssetsPlugin",
+  "author": "Jarid Margolin <jaridmargolin@gmail.com>",
+  "version": "0.0.1",
+  "license": "MIT",
+  "keywords": [
+    "neutrino",
+    "neutrino-middleware",
+    "optimize",
+    "optimize-css",
+    "minify",
+    "minification"
+  ],
+  "homepage": "https://github.com/jaridmargolin/neutrino-middleware-optimizecss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaridmargolin/neutrino-middleware-optimizecss"
+  },
+  "bugs": {
+    "url": "https://github.com/jaridmargolin/neutrino-middleware-optimizecss/issues"
+  },
+  "main": "src/index.js",
+  "dependencies": {
+    "optimize-css-assets-webpack-plugin": "^1.3.2"
+  },
+  "peerDependencies": {
+    "neutrino": "^5.0.1"
+  }
+}
