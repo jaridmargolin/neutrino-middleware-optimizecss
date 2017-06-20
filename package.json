@@ -26,6 +26,6 @@
     "optimize-css-assets-webpack-plugin": "^2.0.0"
   },
   "peerDependencies": {
-    "neutrino": "^5.0.1"
+    "neutrino": "^6.0.3"
   }
 }
